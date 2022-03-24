@@ -6,201 +6,177 @@ dict_ex = {
   "ver": 1,
   "kv": [
     {
-      "k": 4,
+      "k": "4",
       "v": {
         "ssid": "MyBestNetwork",
         "pass": "lalalalalalalalalal"
       }
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
-      "v": 404
-    }
-  ],
-  "sb": [
-    {
-      "k": 404,
+      "k": "404",
       "v": 404
     },
     {
-      "k": 404,
-      "v": 404
+      "k": "11",
+      "v": {
+        "MAC": "H/P",
+        "pass": "lalalalalalalalalal"
+      }
     },
     {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
-    },
-    {
-      "k": 404,
-      "v": 404
+      "k": "bs",
+      "v": [
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        },
+        {
+          "404": 404
+        }
+      ]
     }
   ]
 }
@@ -210,7 +186,7 @@ dict_ex = {
 st.title('Настройка ТСД при помощи QR-кода')
 st.subheader('Общие настройки ТСД')
 #_____________________________________________
-lightness= st.slider('Яркость дисплея, %',0,100)
+lightness= st.slider('Яркость дисплея, %',0,100, value = 75)
 dict_ex['kv'][1]['k'] = 0
 dict_ex['kv'][1]['v'] = lightness
 #____________________________________________
@@ -250,14 +226,21 @@ else:
     dict_ex['kv'][5]['v'] = 1
 #______________________________________________
 bt = st.radio('Bluetooth', ['Выключено','Включено'])
-dict_ex['kv'][6]['k'] = 13
+dict_ex['kv'][6]['k'] = 10
 if mobile_net== "Выключено":
     dict_ex['kv'][6]['v'] = 0
 else:
     dict_ex['kv'][6]['v'] = 1
+#______________________________________________
+st.caption("Добавление Bluethooth устройства")
+bt1_mac = st.text_input('MAC-адрес')
+bt1_pass = st.text_input('Password BT')
+dict_ex['kv'][14]['k'] = 11
+dict_ex['kv'][14]['v']['MAC'] = bt1_mac
+dict_ex['kv'][14]['v']['pass'] =bt1_pass
 #______________________________________________#________________________________________________________
 airplane = st.radio('Авиарежим', ['Выключено','Включено'])
-dict_ex['kv'][7]['k'] = 14
+dict_ex['kv'][7]['k'] = 5
 if mobile_net== "Выключено":
     dict_ex['kv'][7]['v'] = 0
 else:
@@ -303,80 +286,97 @@ dict_ex['kv'][13]['v'] = dict_time [date_time ]
 st.subheader('Настройки BarCodeService для сканирующего модуля')
 
 bars_default = st.checkbox('Сбросить настройки',value = False, help = 'Сброс настроек на ТСД на default')
-dict_ex['sb'][0]['k'] = 200
 if bars_default == False:
-    dict_ex['sb'][0]['v'] = 0
+    dict_ex['kv'][15]['v'][0] = {"200":0}
 else:
-    dict_ex['sb'][0]['v'] = 1
+    dict_ex['kv'][15]['v'][0] = {"200":1}
 #______________________________________________
 st.write(' **Основные настройки**')
 bars_output = st.radio('Отправка сканирования через ',['BroadCast','KeyBoard','Clipboard'])
 dict_out={'BroadCast': 0, 'KeyBoard': 1, 'Clipboard': 2}
-dict_ex['sb'][1]['k'] = 201
-dict_ex['sb'][1]['v'] = dict_out[bars_output]
+#dict_ex['sb'][1]['k'] = 201
+#dict_ex['sb'][1]['v'] = dict_out[bars_output]
+dict_ex['kv'][15]['v'][1] = {"201":dict_out[bars_output]}
 #______________________________________________
 bars_sleep = st.slider('Задержка нажатия клавиш',0,250)
-dict_ex['sb'][2]['k'] = 202
-dict_ex['sb'][2]['v'] = bars_sleep
+#dict_ex['sb'][2]['k'] = 202
+#dict_ex['sb'][2]['v'] = bars_sleep
+dict_ex['kv'][15]['v'][2] = {"202":bars_sleep}
 #______________________________________________
 bars_invers = st.checkbox('Инверсные коды', value = True, help = 'Включать распознование инверсных кодов')
-dict_ex['sb'][3]['k'] = 203
+#dict_ex['sb'][3]['k'] = 203
 if bars_invers == False:
-    dict_ex['sb'][3]['v'] = 0
+    #dict_ex['sb'][3]['v'] = 0
+    dict_ex['kv'][15]['v'][3] = {"203": 0}
 else:
-    dict_ex['sb'][3]['v'] = 1
+    #dict_ex['sb'][3]['v'] = 1
+    dict_ex['kv'][15]['v'][3] = {"203": 1}
 #______________________________________________
 bars_time_scan = st.slider('Максимальное время сканирования',0,10)
-dict_ex['sb'][4]['k'] = 204
-dict_ex['sb'][4]['v'] = bars_time_scan
+#dict_ex['sb'][4]['k'] = 204
+#dict_ex['sb'][4]['v'] = bars_time_scan
+dict_ex['kv'][15]['v'][4] = {"204":bars_time_scan}
 #______________________________________________
 bars_light = st.checkbox('Подсветка', value = True, help = 'Включать подсветку при сканировании')
-dict_ex['sb'][5]['k'] = 205
+#dict_ex['sb'][5]['k'] = 205
 if bars_light  == False:
-    dict_ex['sb'][5]['v'] = 0
+    #dict_ex['sb'][5]['v'] = 0
+    dict_ex['kv'][15]['v'][5] = {"205": 0}
 else:
-    dict_ex['sb'][5]['v'] = 1
+    #dict_ex['sb'][5]['v'] = 1
+    dict_ex['kv'][15]['v'][5] = {"205": 1}
 #______________________________________________
 bars_aim = st.checkbox('Прицел', value = True, help ='Включать прицел при сканировании')
-dict_ex['sb'][6]['k'] = 206
+#dict_ex['sb'][6]['k'] = 206
 if bars_aim  == False:
-    dict_ex['sb'][6]['v'] = 0
+    #dict_ex['sb'][6]['v'] = 0
+    dict_ex['kv'][15]['v'][6] = {"206": 0}
 else:
-    dict_ex['sb'][6]['v'] = 1
+    #dict_ex['sb'][6]['v'] = 1
+    dict_ex['kv'][15]['v'][6] = {"206": 1}
 #______________________________________________
 bars_multiscan = st.selectbox('Режим сканирования ',['Однократное','Серийное без повторов','Серийнове всех подряд'])
 dict_multi={'Однократное':0,'Серийное без повторов':1,'Серийнове всех подряд':2}
-dict_ex['sb'][7]['k'] = 207
-dict_ex['sb'][7]['v'] = dict_multi[bars_multiscan ]
+#dict_ex['sb'][7]['k'] = 207
+#dict_ex['sb'][7]['v'] = dict_multi[bars_multiscan ]
+dict_ex['kv'][15]['v'][7] = {"207": dict_multi[bars_multiscan]}
 #______________________________________________
 bars_frame = st.selectbox('Размер поля сканирования ',['4/4','3/4','2/4','1/4','1/8','1/16','1/32','1/64'])
 dict_frame={'4/4':0,'3/4':1,'2/4':2,'1/4':3,'1/8':4,'1/16':5,'1/32':6,'1/64':7}
-dict_ex['sb'][8]['k'] = 208
-dict_ex['sb'][8]['v'] = dict_frame[bars_frame]
+#dict_ex['sb'][8]['k'] = 208
+#dict_ex['sb'][8]['v'] = dict_frame[bars_frame]
+dict_ex['kv'][15]['v'][8] = {"208": dict_frame[bars_frame]}
 #______________________________________________
 bars_notification = st.selectbox('Уведомление об успешном сканировании',['Нет','Звук','Вибро','Звук + Вибро'], index=3)
 dict_not={'Нет':0,'Звук':1,'Вибро':2,'Звук + Вибро':3}
-dict_ex['sb'][9]['k'] = 209
-dict_ex['sb'][9]['v'] = dict_not[bars_notification]
+#dict_ex['sb'][9]['k'] = 209
+#dict_ex['sb'][9]['v'] = dict_not[bars_notification]
+dict_ex['kv'][15]['v'][9] = {"209": dict_not[bars_notification]}
 #______________________________________________
 st.write('**Управляющие кнопки**')
 scan_buttons = st.multiselect('Выберите кноки для сканирования',['Левая кнопка','Центральная кнопка','Правая кнопка'],default= ['Левая кнопка','Центральная кнопка','Правая кнопка'])
-dict_ex['sb'][10]['k'] = 210
+#dict_ex['sb'][10]['k'] = 210
 if 'Левая кнопка' in scan_buttons:
-    dict_ex['sb'][10]['v'] = 1
+    #dict_ex['sb'][10]['v'] = 1
+    dict_ex['kv'][15]['v'][10] = {"210":1}
 else:
-    dict_ex['sb'][10]['v'] = 0
-dict_ex['sb'][11]['k'] = 211
+    #dict_ex['sb'][10]['v'] = 0
+    dict_ex['kv'][15]['v'][10] = {"210":0}
+#dict_ex['sb'][11]['k'] = 211
 if 'Центральная кнопка' in scan_buttons:
-    dict_ex['sb'][11]['v'] = 1
+    #dict_ex['sb'][11]['v'] = 1
+    dict_ex['kv'][15]['v'][11] = {"211": 1}
 else:
-    dict_ex['sb'][11]['v'] = 0
+    #dict_ex['sb'][11]['v'] = 0
+    dict_ex['kv'][15]['v'][11] = {"211": 0}
 
-dict_ex['sb'][12]['k'] = 212
+#dict_ex['sb'][12]['k'] = 212
 if 'Правая кнопка' in scan_buttons:
-    dict_ex['sb'][12]['v'] = 1
+    #dict_ex['sb'][12]['v'] = 1
+    dict_ex['kv'][15]['v'][12] = {"212":1}
 else:
-    dict_ex['sb'][12]['v'] = 0
+    #dict_ex['sb'][12]['v'] = 0
+    dict_ex['kv'][15]['v'][12] = {"212":0}
 #_____________________________________________
 st.write('**Нажатие клавиш**')
 dict_space1=['Нет','Tab','Enter','Shift','Ctrl','Alt','CapsLock','Esc','Space','F1','F2','F3','F4','F5','F6','F7','F8','F9','F10','F11','F12']
@@ -385,17 +385,22 @@ key2_before = st.selectbox('Клавиша 2 до сканирования',dict
 key1_after = st.selectbox('Клавиша 1 после сканирования',dict_space1)
 key2_after = st.selectbox('Клавиша 2 после сканирования',dict_space1)
 
-dict_ex['sb'][13]['k'] = 213
-dict_ex['sb'][13]['v'] = dict_space1.index(key1_before)
+dict_ex['kv'][15]['v'][13] = {"213":dict_space1.index(key1_before)}
+dict_ex['kv'][15]['v'][14] = {"214":dict_space1.index(key2_before)}
+dict_ex['kv'][15]['v'][15] = {"215":dict_space1.index(key1_after)}
+dict_ex['kv'][15]['v'][16] = {"216":dict_space1.index(key2_after)}
 
-dict_ex['sb'][14]['k'] = 214
-dict_ex['sb'][14]['v'] = dict_space1.index(key2_before)
+#dict_ex['sb'][13]['k'] = 213
+#dict_ex['sb'][13]['v'] = dict_space1.index(key1_before)
 
-dict_ex['sb'][15]['k'] = 215
-dict_ex['sb'][15]['v'] = dict_space1.index(key1_after)
+#dict_ex['sb'][14]['k'] = 214
+#dict_ex['sb'][14]['v'] = dict_space1.index(key2_before)
 
-dict_ex['sb'][16]['k'] = 216
-dict_ex['sb'][16]['v'] = dict_space1.index(key2_after)
+#dict_ex['sb'][15]['k'] = 215
+#dict_ex['sb'][15]['v'] = dict_space1.index(key1_after)
+
+#dict_ex['sb'][16]['k'] = 216
+#dict_ex['sb'][16]['v'] = dict_space1.index(key2_after)
 
 #_________________________________________________________________________
 st.write('**Префиксы и суффиксы**')
@@ -403,74 +408,89 @@ dict_space2=['Пусто','Tab','Enter','Space','Символ']
 dict_spaces2={'Пусто':500,'Tab':501,'Enter': 502,'Space':503,'Символ':504}
 bars_prefix1= st.selectbox('Префикс 1',dict_space2)
 
-dict_ex['sb'][17]['k'] = 217
+#dict_ex['sb'][17]['k'] = 217
 if bars_prefix1 == "Символ":
     pr1_char = st.text_input('Символ префикса 1')
-    dict_ex['sb'][17]['v'] = ord(pr1_char)
+    #dict_ex['sb'][17]['v'] = ord(pr1_char)
+    dict_ex['kv'][15]['v'][17] = {"217":ord(pr1_char)}
 else:
-    dict_ex['sb'][17]['v'] = dict_spaces2[bars_prefix1]
+    #dict_ex['sb'][17]['v'] = dict_spaces2[bars_prefix1]
+    dict_ex['kv'][15]['v'][17] = {"217":dict_spaces2[bars_prefix1]}
 
 bars_prefix2= st.selectbox('Префикс 2',dict_space2)
 
-dict_ex['sb'][18]['k'] = 218
+#dict_ex['sb'][18]['k'] = 218
 if bars_prefix2 == "Символ":
     pr2_char = st.text_input('Символ префикса 2')
-    dict_ex['sb'][18]['v'] = ord(pr2_char)
+    #dict_ex['sb'][18]['v'] = ord(pr2_char)
+    dict_ex['kv'][15]['v'][18] = {"218": ord(pr2_char)}
 else:
-    dict_ex['sb'][18]['v'] = dict_spaces2[bars_prefix2]
+    #dict_ex['sb'][18]['v'] = dict_spaces2[bars_prefix2]
+    dict_ex['kv'][15]['v'][18] = {"218": dict_spaces2[bars_prefix2]}
 
 bars_sufix1 = st.selectbox('Суффикс 1',dict_space2)
 
-dict_ex['sb'][19]['k'] = 219
+#dict_ex['sb'][19]['k'] = 219
 if bars_sufix1 == "Символ":
     sf1_char = st.text_input('Символ суффикса 1')
-    dict_ex['sb'][19]['v'] = ord(sf1_char)
+    #dict_ex['sb'][19]['v'] = ord(sf1_char)
+    dict_ex['kv'][15]['v'][19] = {"219": ord(sf1_char)}
 else:
-    dict_ex['sb'][19]['v'] = dict_spaces2[bars_sufix1]
+    #dict_ex['sb'][19]['v'] = dict_spaces2[bars_sufix1]
+    dict_ex['kv'][15]['v'][19] = {"219": dict_spaces2[bars_sufix1]}
 
 bars_sufix2 = st.selectbox('Суффикс 2',dict_space2)
 
-dict_ex['sb'][20]['k'] = 220
+#dict_ex['sb'][20]['k'] = 220
 if bars_sufix2 == "Символ":
     sf2_char = st.text_input('Символ суффикса 2')
-    dict_ex['sb'][20]['v'] = ord(sf2_char)
+    #dict_ex['sb'][20]['v'] = ord(sf2_char)
+    dict_ex['kv'][15]['v'][20] = {"220": ord(sf2_char)}
 else:
-    dict_ex['sb'][20]['v'] = dict_spaces2[bars_sufix2]
+    #dict_ex['sb'][20]['v'] = dict_spaces2[bars_sufix2]
+    dict_ex['kv'][15]['v'][20] = {"220": dict_spaces2[bars_sufix2]}
 #________________________________________________________
 st.write('**Преобразование**')
 bars_registr = st.selectbox('Преобразование регистра',['Нет','В ВЕРХНИЙ','в нижний'])
 list_reg=['Нет','В ВЕРХНИЙ','в нижний']
-dict_ex['sb'][21]['k'] = 221
-dict_ex['sb'][21]['v'] = list_reg.index(bars_registr)
+#dict_ex['sb'][21]['k'] = 221
+#dict_ex['sb'][21]['v'] = list_reg.index(bars_registr)
+dict_ex['kv'][15]['v'][21] = {"221": list_reg.index(bars_registr)}
 
 bars_GS = st.selectbox('Заменять GS(0x1D)',dict_space2)
 
-dict_ex['sb'][22]['k'] = 222
+#dict_ex['sb'][22]['k'] = 222
 if bars_GS == "Символ":
     gs_char = st.text_input('Символ для замены GS')
-    dict_ex['sb'][22]['v'] = ord(gs_char )
+    #dict_ex['sb'][22]['v'] = ord(gs_char )
+    dict_ex['kv'][15]['v'][22] = {"222": ord(gs_char )}
 else:
-    dict_ex['sb'][22]['v'] = dict_spaces2[bars_GS]
+    #dict_ex['sb'][22]['v'] = dict_spaces2[bars_GS]
+    dict_ex['kv'][15]['v'][22] = {"222": dict_spaces2[bars_GS]}
 
 #_________________________________________________________________
 st.write('**Типы штрихкодов**')
 bars_code = st.radio('Типы штрихкодов',['Включить все','Отключить все'], index=0)
 
-dict_ex['sb'][23]['k'] = 100
+#dict_ex['sb'][23]['k'] = 100
 if bars_code == 'Включить все':
-    dict_ex['sb'][23]['v'] = 1
+    #dict_ex['sb'][23]['v'] = 1
+    dict_ex['kv'][15]['v'][23] = {"100": 1}
 else:
-    dict_ex['sb'][23]['v'] = 0
+    #dict_ex['sb'][23]['v'] = 0
+    dict_ex['kv'][15]['v'][23] = {"100": 0}
 
 #__________________________________________________________
 #st.write('**DataMatrix**')
 bars_DM = st.radio('DataMatrix', ['Выключено','Включено'], index=1)
 
-dict_ex['sb'][24]['k'] = 101
+#dict_ex['sb'][24]['k'] = 101
 if bars_DM== "Выключено":
-    dict_ex['sb'][24]['v'] = 0
+    #dict_ex['sb'][24]['v'] = 0
+    dict_ex['kv'][15]['v'][24] = {"101": 0}
 else:
-    dict_ex['sb'][24]['v'] = 1
+    #dict_ex['sb'][24]['v'] = 1
+    dict_ex['kv'][15]['v'][24] = {"101": 1}
 #________________________________________________________
 #bars_DM_max = st.slider('Max len',1,3116, value = 3116)
 #bars_DM_min = st.slider('Min len',1,3116, value = 1)
@@ -479,71 +499,73 @@ else:
 #st.write('**EAN-13**')
 bars_EAN13 = st.radio('EAN-13', ['Выключено','Включено'], index=1)
 
-dict_ex['sb'][25]['k'] = 106
+#dict_ex['sb'][25]['k'] = 106
 if bars_EAN13 == "Выключено":
-    dict_ex['sb'][25]['v'] = 0
+    dict_ex['kv'][15]['v'][25] = {"106": 0}
 else:
-    dict_ex['sb'][25]['v'] = 1
+    dict_ex['kv'][15]['v'][25] = {"106": 1}
+
+
 #________________________________________________________
 bars_EAN8 = st.radio('EAN-8', ['Выключено','Включено'], index=1)
 
-dict_ex['sb'][26]['k'] = 116
+#dict_ex['sb'][26]['k'] = 116
 if bars_EAN8 == "Выключено":
-    dict_ex['sb'][26]['v'] = 0
+    dict_ex['kv'][15]['v'][26] = {"116": 0}
 else:
-    dict_ex['sb'][26]['v'] = 1
+    dict_ex['kv'][15]['v'][26] = {"116": 1}
 #________________________________________________________
 
 bars_PDF417 = st.radio('PDF-417', ['Выключено','Включено'], index=1)
 
-dict_ex['sb'][27]['k'] = 121
+#dict_ex['sb'][27]['k'] = 121
 if bars_PDF417 == "Выключено":
-    dict_ex['sb'][27]['v'] = 0
+    dict_ex['kv'][15]['v'][27] = {"121": 0}
 else:
-    dict_ex['sb'][27]['v'] = 1
+    dict_ex['kv'][15]['v'][27] = {"121": 1}
 #________________________________________________________
 bars_MicroPDF417 = st.radio('Micro PDF-417', ['Выключено','Включено'], index=1)
 
-dict_ex['sb'][28]['k'] = 125
+#dict_ex['sb'][28]['k'] = 125
 if bars_MicroPDF417 == "Выключено":
-    dict_ex['sb'][28]['v'] = 0
+    dict_ex['kv'][15]['v'][28] = {"125": 0}
 else:
-    dict_ex['sb'][28]['v'] = 1
+    dict_ex['kv'][15]['v'][28] = {"125": 1}
 #________________________________________________________
 bars_GS1_DataBar = st.radio('GS1 DataBar', ['Выключено','Включено'], index=1)
-dict_ex['sb'][29]['k'] = 130
+#dict_ex['sb'][29]['k'] = 130
 if bars_GS1_DataBar == "Выключено":
-    dict_ex['sb'][29]['v'] = 0
+    dict_ex['kv'][15]['v'][29] = {"130": 0}
 else:
-    dict_ex['sb'][29]['v'] = 1
+    dict_ex['kv'][15]['v'][29] = {"130": 1}
 #________________________________________________________
 bars_GS1_128 = st.radio('GS1-128', ['Выключено','Включено'], index=1)
-dict_ex['sb'][30]['k'] = 136
+#dict_ex['sb'][30]['k'] = 136
 if bars_GS1_DataBar == "Выключено":
-    dict_ex['sb'][30]['v'] = 0
+    dict_ex['kv'][15]['v'][30] = {"136": 0}
 else:
-    dict_ex['sb'][30]['v'] = 1
+    dict_ex['kv'][15]['v'][30] = {"136": 1}
 #________________________________________________________
 bars_Code128 = st.radio('Code-128', ['Выключено','Включено'], index=1)
-dict_ex['sb'][31]['k'] = 140
+#dict_ex['sb'][31]['k'] = 140
 if bars_Code128  == "Выключено":
-    dict_ex['sb'][31]['v'] = 0
+    dict_ex['kv'][15]['v'][31] = {"140": 0}
 else:
-    dict_ex['sb'][31]['v'] = 1
+    dict_ex['kv'][15]['v'][31] = {"140": 1}
 #________________________________________________________
 bars_Code39 = st.radio('Code39', ['Выключено','Включено'], index=1)
-dict_ex['sb'][32]['k'] = 145
+#dict_ex['sb'][32]['k'] = 145
 if bars_Code39 == "Выключено":
-    dict_ex['sb'][32]['v'] = 0
+    dict_ex['kv'][15]['v'][32] = {"145": 0}
 else:
-    dict_ex['sb'][32]['v'] = 1
+    dict_ex['kv'][15]['v'][32] = {"145": 1}
 #________________________________________________________
 bars_QRCode = st.radio('QR-code', ['Выключено','Включено'], index=1)
-dict_ex['sb'][33]['k'] = 150
+#dict_ex['sb'][33]['k'] = 150
 if bars_QRCode  == "Выключено":
-    dict_ex['sb'][33]['v'] = 0
+    dict_ex['kv'][15]['v'][33] = {"150": 0}
 else:
-    dict_ex['sb'][33]['v'] = 1
+    dict_ex['kv'][15]['v'][33] = {"150": 1}
 #________________________________________________________
 if st.button('Generate QR'):
     im1=qrcode.make(dict_ex)
