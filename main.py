@@ -569,7 +569,7 @@ else:
     dict_ex['kv'][15]['v'][33] = {"150": 1}
 #________________________________________________________
 if st.button('Generate QR'):
-    j1 = json.dumps(dict_ex)  
+    j1 = json.dumps(dict_ex,separators=(',', ':'))  
     im1=qrcode.make(j1)
     im1.save('qr.jpg')
     image = Image.open('qr.jpg')
