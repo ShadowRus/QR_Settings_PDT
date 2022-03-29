@@ -1,6 +1,7 @@
 import streamlit as st
 import qrcode
 from PIL import Image
+import json
 #------------------------------------------------------------
 dict_ex = {
   "ver": 1,
@@ -568,7 +569,8 @@ else:
     dict_ex['kv'][15]['v'][33] = {"150": 1}
 #________________________________________________________
 if st.button('Generate QR'):
-    im1=qrcode.make(dict_ex)
+    j1 = json.dumps(dict_ex)  
+    im1=qrcode.make(j1)
     im1.save('qr.jpg')
     image = Image.open('qr.jpg')
     st.image(image)
